@@ -24,6 +24,8 @@ git init
 git config --global user.name "zhucheng2"
 git config --global user.email "1260750674@qq.com"
 
+显示中文
+git config --global core.quotepath false
 
 把文件add到 .git仓库(暂存区)
 git add ./index.html  把当前路径下的index.html文件 放入暂存区
